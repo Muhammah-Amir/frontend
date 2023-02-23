@@ -1,11 +1,11 @@
-import { View, Text, Image, TextInput } from 'react-native'
+import { View, Text, Image, TextInput, TouchableOpacity } from 'react-native'
 import React from 'react'
 import { a } from '../assests/icon'
 
 
 
 
-const second = (navigation) => {
+const second = ({navigation}) => {
   return (
     <View style={{height:'100%',width:'100%'}}>
       <View style={{alignContent:'center',alignItems:'center'}}>
@@ -48,18 +48,22 @@ const second = (navigation) => {
         <View style={{top:40}}>
         <Text style={{fontWeight:'900',color:'#000000'}}>
             Are you new ?
-            <Text onPress = {()=>{
-        navigation.navigate("signup")}} 
+            <TouchableOpacity onPress = {()=>{
+        navigation.navigate("register")}} >
+        <Text 
 
-             style={{color:'#00401A'}}>
+             style={{color:'#00401A',fontWeight:"900" }}>
                 Register
-            </Text>
+            </Text> 
+            </TouchableOpacity> 
+           
         </Text>
-        
+           
         </View>
       </View>
       
     </View>
+
   );
 }
 
