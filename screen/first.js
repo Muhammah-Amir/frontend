@@ -23,7 +23,7 @@ const first = ({navigation}) => {
         navigation.navigate("login")}}
         
         
-        style={{color:'#FFF',fontWeight:'bold', fontSize:'30'}} >
+        style={{color:'#FFF',fontWeight:'bold'}} >
         Login
         </Text>            
       </View>
