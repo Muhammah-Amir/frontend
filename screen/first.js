@@ -23,8 +23,8 @@ const first = ({navigation}) => {
         navigation.navigate("login")}}
         
         
-        style={{color:'#FFF',fontWeight:'bold'}} >
-        Login da pawa akhtar lawa
+        style={{color:'#FFF',fontWeight:'bold', fontSize:'30'}} >
+        Login
         </Text>            
       </View>
       <View style={{height:40,width:'90%',alignItems:'center',justifyContent:'center',marginTop:-20}}>
