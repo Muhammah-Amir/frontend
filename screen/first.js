@@ -1,4 +1,4 @@
-import { View, Text,Image, Button } from 'react-native'
+import { View, Text,Image, Button, StyleSheet } from 'react-native'
 import React from 'react'
 import { a } from '../assests/icon'
 
@@ -24,7 +24,7 @@ const first = ({navigation}) => {
         
         
         style={{color:'#FFF',fontWeight:'bold'}} >
-        Login
+        Login da pawa akhtar lawa
         </Text>            
       </View>
       <View style={{height:40,width:'90%',alignItems:'center',justifyContent:'center',marginTop:-20}}>
